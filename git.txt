@@ -1,0 +1,8 @@
+
+
+// log
+// --------------------------------------------------
+git log --pretty=format:"%h - %an, %ar : %s"
+
+/* tag + log */
+git log --no-walk --tags --pretty="%h %d %s" --decorate=full
